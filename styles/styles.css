@@ -1,12 +1,25 @@
+ /* font styles */
+
+ @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+ .font-quicksand{
+    font-family: "Quicksand", serif;
+ }
+/* nav styles */
 .nav-section{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 .logo-section{
     display: flex;
     gap: 4px;
 }
+/* .logo-title{
+    font-size: 32px;
+    font-weight: 700;
+} */
 .link-section > ul{
     display: flex;
     gap: 30px;
@@ -42,4 +55,45 @@ button{
 button > p{
     padding: 1px 20px ;
    
+}
+/* shared styles */
+nav,.banner-container{
+    max-width: 1400px;
+    margin: 0 auto;
+  
+}
+/* banner styles */
+.banner-container{
+    display: flex;
+    /* gap: 50px; */
+    justify-content: space-between;
+}
+.banner-description{
+    padding-top: 127px;
+    width: 640px;
+    height: 300px;
+}
+.banner-title{
+    font-size: 56px;
+    font-weight: 700;
+    padding-bottom: 1px;
+
+}
+.banner-img{
+    padding-right: 100px;
+    /* padding-bottom: 0; */
+}
+img{
+    width: 100%;
+}
+.span-1{
+    color: rgb(254, 163, 1);
+}
+.span-2{
+    color:rgb(1, 172, 253) ;
+}
+.banner-paragraph{
+    font-size: 20px;
+    font-weight: 400;
+  
 }
