@@ -1,0 +1,45 @@
+.nav-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-section{
+    display: flex;
+    gap: 4px;
+}
+.link-section > ul{
+    display: flex;
+    gap: 30px;
+}
+ul > li{
+    list-style: none;
+}
+li >a {
+    text-decoration: none;
+}
+.list-1 > a{
+    color: rgb(254, 163, 1);
+}
+.list-2 > a{
+    color: rgb(1, 172, 253);
+}
+.list-3 > a{
+    color: rgb(5, 212, 223);
+}
+.list-4 > a{
+    color: rgb(93, 88, 239);
+}
+button{
+    background-color:rgb(254, 163, 1) ;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    width: 180px;
+    height: 40px;
+  
+    
+}
+button > p{
+    padding: 1px 20px ;
+   
+}
