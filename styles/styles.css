@@ -210,3 +210,49 @@ background: rgb(255, 255, 255);
 .story > img{
     border-radius: 16px;
 }
+/* footer section */
+footer{
+    width: 1920px;
+    background-color:rgb(1, 172, 253) ;
+}
+.footer{
+    display: flex;
+    /* background-color: rgb(1, 172, 253);  */
+    gap: 20px;
+    color: white;
+    
+}
+.footer-logo{
+    display: flex;
+    gap: 4px;
+    width: 240px;
+    height: 140px;
+}
+.footer-logo > img{
+    width: 100%;
+    /* background-color: white; */
+}
+.footer-link > ul{
+    display: grid;
+    gap: 30px;
+}
+.icon-div{
+    display: flex;
+}
+.list > a{
+    color: white;
+}
+
+
+
+
+
+@media screen and (max-width :576px){
+    .nav-section{
+        border: 2px solid orange;
+
+    }
+    .link-section {
+        display: hidden;
+    }
+}
