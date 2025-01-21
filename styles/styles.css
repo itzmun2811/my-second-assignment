@@ -12,6 +12,9 @@
     align-items: center;
     
 }
+.nav-section > .icon-bar{
+    display: none;
+}
 .logo-section{
     display: flex;
     gap: 4px;
@@ -92,6 +95,11 @@ img{
 .span-2{
     color:rgb(1, 172, 253) ;
 }
+.enroll{
+    background-color: black;
+   
+
+}
 .banner-paragraph{
     font-size: 20px;
     font-weight: 400;
@@ -166,6 +174,19 @@ img{
     background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
 
 }
+.icon-arrow{
+    display: flex;
+   
+}u
+.icon{
+    width: 60px;
+    height: 60px;
+    font-size: 60px;
+    font-weight: 700;
+    padding-right: 240px;
+    padding-left: 240px;
+}
+
 /* stories-section */
 
  .stories-section{
@@ -188,6 +209,14 @@ img{
      width: 600px;
     height: 620px;
 
+}
+.story-h{
+    display: none;
+}
+.view-para{
+    font-size: 20px;
+    padding-bottom: 4px;
+    margin-bottom: 40px;
 }
 .story-box-1{
     width: 550px;
@@ -248,11 +277,80 @@ footer{
 
 
 @media screen and (max-width :576px){
+    .nav-section , .banner-container{
+        max-width: 576px;
+        margin: 0 auto;
+    }
+    .nav-section > .icon-bar{
+        display: block;
+    }
+    .banner-description{
+        padding-top: 40px;
+        width: 300px;
+        height: 400px;
+        padding-bottom: 40px;
+        text-align: center;
+        margin-bottom: 40px;
+        }
+        .banner-title{
+            font-size: 50px;
+           
+        
+        
+        }
+   
     .nav-section{
         border: 2px solid orange;
+        padding: 10px;
+        
 
     }
-    .link-section {
-        display: hidden;
+    .nav-section > button,.logo-title,.link-section {
+        display: none;
+    }
+    .banner-container{
+    
+    flex-direction: column-reverse;
+    margin-bottom: 100px;
+       
+    }
+    .banner-img{
+        /* width: 500px;
+        height: 400px; */
+        padding-right:0;
+    }
+    .banner-img > img {
+        width: 80%;
+        padding-right: 0;
+        margin: 0 auto;
+
+    }
+    .curriculam-section{
+        margin-top: 60px;
+    }
+    .curriculam{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .icon-arrow{
+        display: none;
+    }
+    .story-h{
+        display: block;
+    }
+    .story-box-1{
+        display:none;
+    }
+    .story-box{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-bottom: 100px;
+        width: 800px;
+        height: 620px;
+    }
+    
+        
+    .footer{
+        margin-top: 140px;
     }
 }
