@@ -226,12 +226,26 @@ text-decoration: none;
 }
 
 .fa-circle-chevron-left{
-  transition: font-weight 2s ;
+    transition: position 2s;
+  
 }
 
 .fa-circle-chevron-left:hover{
 
+position: relative;
+left: -100px;
 
+
+}
+.fa-circle-chevron-right{
+    transition: position 2s linear 2s;
+  
+}
+
+.fa-circle-chevron-right:hover{
+
+position: relative;
+right: -100px;
 
 
 }
@@ -239,7 +253,7 @@ text-decoration: none;
 /* stories-section */
 
  .stories-section{
-    padding-top:80px ;
+    padding-top:60px ;
     max-width: 1920px;
     margin: 0 auto;
     text-align: center;
@@ -314,31 +328,60 @@ text-decoration: none;
     margin: 0 auto;
     background-color:rgb(1, 172, 253) ;
     display: flex;
-    /* background-color: rgb(1, 172, 253);  */
-    gap: 20px;
     color: white;
+    padding-left: 20px;
+   padding-top: 80px;
+   padding-bottom: 80px;
+   justify-content: space-around;
+   
+    
+    
     
     
 }
+
 .footer-logo{
     display: flex;
-    gap: 4px;
-    width: 240px;
-    height: 140px;
+    gap: 0px;
+    /* width: 500px;
+    height: 200px; */
 }
+
 
 .footer-img{
-    width: 85px;
-    height: 30px;
-    padding-top: 5px;
+    width: 150px;
+    height: 100px;
+
+
+    /* padding-top: 40px; */
     /* background-color: aliceblue; */
 }
+.footer-img > img{
+    width: 100px;
+}
+.footer-title{
+    padding-left: 0;
+    position: relative;
+    left: -25px;
+}
 
+/* .footer-link{
+    padding-right: 80px;
+    padding-left: 60px;
+} */
+.about{
+    font-size: 24px;
+    font-weight: 700;
+}
 .footer-link > ul{
     display: grid;
-    gap: 30px;
-    padding-left: 60px;
+    gap: 20px;
+    position: relative;
+    left: -155px;
+    /* padding-right: 80px;
+    padding-left: 60px; */
 }
+
 .icon-div{
     display: flex;
 }
@@ -348,11 +391,9 @@ text-decoration: none;
 .footer-1{
     width: 600px;
     height: 200px;
-    padding-left: 141px;
+    padding-left: 80px;
 }
-.tweet-container{
-    padding-left: 150px;
-}
+
 
 
 
@@ -499,80 +540,91 @@ text-decoration: none;
     margin-bottom: 30px;
 }
 
-     
-     
+  
 .footer{
-    margin-top: 40px;
-   width:576px ;
-   height: 800px;
+   max-width: 576px;
     margin: 0 auto;
     background-color:rgb(1, 172, 253) ;
     display: grid;
-    gap: 20px;
-    color: white;
-    padding-left: 10px;
-    
-    
-}
-.footer-1{
-    padding-bottom: 40px;
-}
+    height:700px;
+    justify-content: start;
+   }
+
 .footer-logo{
     display: flex;
-    gap: 4px;
-    width: 240px;
-    height: 140px;
+    gap: 0px;
+    /* width: 500px;
+    height: 200px; */
 }
-.logo-title{
-    font-size: 36px;
-    font-weight: 700;
-    color: white;
-}
+
 
 .footer-img{
-    width: 85px;
-    height: 30px;
-    padding-top: 5px;
+    width: 80px;
+    height: 80px;
+
+
+    /* padding-top: 40px; */
     /* background-color: aliceblue; */
 }
-.footer-link{
-    padding-top: 70px;
-
+.footer-img > img{
+    width: 100%;
 }
+.logo-title{
+    padding-left: 0;
+    font-size: 30px;
+    font-weight: 700;
+    padding-left: 0;
+    position: relative;
+    left:0;
+
+   
+        
+    
+}
+
+/* .footer-link{
+    padding-right: 80px;
+    padding-left: 60px;
+} */
 .about{
-    font-weight: 600;
-    font-size: 21px;
+    font-size: 16px;
+    font-weight:700;
 }
-
 .footer-link > ul{
     display: grid;
-    gap: 30px;
-   
-}
-.icon-div{
-    display: grid;
-}
-.list > a{
-    color: white;
-}
-.footer-1{
-    width: 200px;
-    height: 70px;
-    padding-left: 4px;
+    gap: 20px;
+    position: relative;
+    left: 0px;
+    
+    /* padding-right: 80px;
+    padding-left: 60px; */
 }
 .tweet-container{
-    padding-left: 0px;
-    
-    
+    padding-left: 20px;
 }
-.icon-div {
-    width: 40px;
-    height: 40px;
+.tweet-container > h1{
+    font-weight: 20px;
+    font-weight: 400px;
+}
+
+.icon-div{
     display: flex;
+    width: 55px;
+    height: 55px;
 }
-.tweet-container > img{
-  width: 100%;
+.icon-div > img{
+width: 100%;
 }
+
+.footer-1{
+    width: 400px;
+    height: 200px;
+    padding-left: 20px;
+    
+}
+
+     
+
     
         
    
