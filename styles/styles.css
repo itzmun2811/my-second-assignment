@@ -505,6 +505,7 @@ right: -100px;
    max-width: 576px;
     margin: 0 auto;
     text-align: center;
+    padding-left: 4px;
  }
 .stories-container{
     display: flex;
