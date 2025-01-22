@@ -223,15 +223,21 @@ text-decoration: none;
     padding-right: 240px;
     padding-left: 240px; 
     justify-content: center;
-    gap: 5PX;
-    transition: position 5s linear 3s;
+    gap: 5px;
+    
     
    
 }
-.icon-arrow :hover{
-    position: relative;
-    left: 200px;
-    right: 200px;
+
+.fa-circle-chevron-left{
+  transition: font-weight 2s ;
+}
+
+.fa-circle-chevron-left:hover{
+
+
+
+
 }
 
 /* stories-section */
@@ -359,27 +365,42 @@ background: rgb(255, 255, 255);
 
 
 @media screen and (max-width :576px){
-    .nav-section , .banner-container{
+    html,body{
+        overflow-x: hidden;
+       }
+    .nav-section,.banner-container{
         max-width: 576px;
         margin: 0 auto;
+        
     }
     .nav-section > .icon-bar{
         display: block;
     }
+    .banner-container{
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
     .banner-description{
-        padding-top: 40px;
-        width: 300px;
-        height: 400px;
-        padding-bottom: 40px;
+        padding-top: 20px;
+        width: 360px;
+        height: 252px;
+        
         text-align: center;
         margin-bottom: 40px;
         }
         .banner-title{
-            font-size: 50px;
+            font-size: 32px;
+            padding-bottom: 18px;
+
+            font-weight: 700;
+            width: 350px;
+            height: 120px;
            
         
         
         }
+        
    
     .nav-section{
         border: 2px solid orange;
@@ -407,9 +428,26 @@ background: rgb(255, 255, 255);
         margin: 0 auto;
 
     }
-    .curriculam-section{
-        margin-top: 60px;
+    
+    .standard-paragraph {
+        font-size: 26px;
+        font-weight: 700;
+        padding-bottom: 20px;
     }
+    .curriculam-section {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+        max-width: 576px;
+        /* margin: 0 auto; */
+    
+    }
+
+
+
+
+
+
     .curriculam{
         display: grid;
         grid-template-columns: repeat(1,1fr);
