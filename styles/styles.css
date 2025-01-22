@@ -6,6 +6,24 @@
     font-family: "Quicksand", serif;
  }
 /* nav styles */
+marquee {
+    color: #bf1483;
+    font-size: 4vw;
+    font-weight: 800;
+    text-transform: capitalize;
+    text-shadow: 4px 4px 8px rgb(247, 137, 226);
+    box-shadow: 0px 0px 20px 5px rgba(27, 199, 229, 0.15);
+    border: none;
+    margin-bottom: 20px;
+    padding-top: 0;
+    
+  }
+  .marquee-1{
+    color: #1385ab;
+    text-shadow: 4px 4px 8px rgba(50, 6, 50, 0.205);
+    box-shadow: 0px 0px 20px 5px rgba(92, 192, 209, 0.15);
+    margin-bottom: 0;
+  }
 .nav-section{
     display: flex;
     justify-content: space-between;
@@ -206,8 +224,14 @@ text-decoration: none;
     padding-left: 240px; 
     justify-content: center;
     gap: 5PX;
+    transition: position 5s linear 3s;
     
    
+}
+.icon-arrow :hover{
+    position: relative;
+    left: 200px;
+    right: 200px;
 }
 
 /* stories-section */
@@ -241,7 +265,7 @@ text-decoration: none;
     top: -30px;
     left: -140px;
     border-radius: 45px;
-    
+    background-color: rgb(60, 216, 232);
 }
 .date{
     position: relative;
