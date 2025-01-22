@@ -5,7 +5,7 @@
  .font-quicksand{
     font-family: "Quicksand", serif;
  }
-/* nav styles */
+
 marquee {
     color: #bf1483;
     font-size: 4vw;
@@ -24,6 +24,7 @@ marquee {
     box-shadow: 0px 0px 20px 5px rgba(92, 192, 209, 0.15);
     margin-bottom: 0;
   }
+  /* nav styles */
 .nav-section{
     display: flex;
     justify-content: space-between;
@@ -37,10 +38,7 @@ marquee {
     display: flex;
     gap: 4px;
 }
-/* .logo-title{
-    font-size: 32px;
-    font-weight: 700;
-} */
+
 .link-section > ul{
     display: flex;
     gap: 30px;
@@ -86,7 +84,6 @@ nav,.banner-container{
 /* banner styles */
 .banner-container{
     display: flex;
-    /* gap: 50px; */
     justify-content: space-between;
 }
 .banner-description{
@@ -102,7 +99,7 @@ nav,.banner-container{
 }
 .banner-img{
     padding-right: 100px;
-    /* padding-bottom: 0; */
+    
 }
 img{
     width: 100%;
@@ -120,7 +117,7 @@ img{
 }
 .banner-paragraph{
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 500;
   
 }
 .standard-paragraph {
@@ -159,8 +156,7 @@ img{
     padding-left: 100px;
     padding-right: 100px;
     padding-top: 40px;
-    /* justify-content: center;
-    align-items: center; */
+  
 }
 .curriculam-1{
     width: 360px;
@@ -278,7 +274,7 @@ text-decoration: none;
     top: -25px;
     left: -27px ;
     border-radius: 45px;
-    /* left: -5px; */
+    
     
 }
 .date-2{
@@ -296,8 +292,7 @@ text-decoration: none;
     width: 550px;
     height: 620px;
     border-radius: 16px;
-    /* border: 2px solid black; */
-background: rgb(255, 255, 255);
+    background: rgb(255, 255, 255);
 }
 .story-box-1 >img{
     width: 100%;
@@ -307,8 +302,7 @@ background: rgb(255, 255, 255);
     width: 290px;
     height: 300px;
     border-radius: 16px;
-
-background: rgb(255, 255, 255);
+    background: rgb(255, 255, 255);
 }
 .story > img{
     border-radius: 16px 16px 0px 0px;
@@ -390,8 +384,9 @@ background: rgb(255, 255, 255);
         margin-bottom: 40px;
         }
         .banner-title{
+            margin-top: 5px;
             font-size: 32px;
-            padding-bottom: 18px;
+            padding-bottom: 5px;
 
             font-weight: 700;
             width: 350px;
@@ -400,27 +395,33 @@ background: rgb(255, 255, 255);
         
         
         }
+        .banner-paragraph{
+            font-size: 14px;
+            font-weight: 500;
+            padding-bottom: 10px;
+        }
         
    
     .nav-section{
         border: 2px solid orange;
         padding: 10px;
+        margin-bottom: 35px;
         
 
     }
-    .nav-section > button,.logo-title,.link-section {
+    .nav-section > button,.school,.link-section {
         display: none;
     }
     .banner-container{
     
     flex-direction: column-reverse;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
        
     }
     .banner-img{
-        /* width: 500px;
-        height: 400px; */
+        width: 500px;
         padding-right:0;
+        margin-bottom: 5px;
     }
     .banner-img > img {
         width: 80%;
@@ -438,16 +439,12 @@ background: rgb(255, 255, 255);
         padding-top: 20px;
         padding-bottom: 20px;
         text-align: center;
-        max-width: 576px;
-        /* margin: 0 auto; */
+        justify-items: center;
+        align-items: center;
+       
+        
     
     }
-
-
-
-
-
-
     .curriculam{
         display: grid;
         grid-template-columns: repeat(1,1fr);
@@ -455,27 +452,129 @@ background: rgb(255, 255, 255);
     .icon-arrow{
         display: none;
     }
-    .story-h{
-        display: block;
-    }
-    .story-box-1{
-        display:none;
-    }
-    .story-box{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        margin-bottom: 100px;
-        width: 60%;
-    }
-    .stories-section{
-        padding-top:30px ;
-        max-width: 576px;
-        margin: 0 auto;
-        text-align: center;
-     }
+
+    
+ .stories-section{
+    padding-top:40px ;
+   max-width: 576px;
+    margin: 0 auto;
+    text-align: center;
+ }
+.stories-container{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    padding-bottom: 40px;
+   
+}
+.story-box-1{
+    display: none;
+}
+.story-box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5px;  
+    width: 600px;
+    height: 620px;
+
+}
+.story{
+    width: 250px;
+    height:300px;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.story > p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.story > img{
+    border-radius: 16px 16px 0px 0px;
+}
+.view-para{
+    font-size: 16px;
+    padding-bottom: 4px;
+    margin-bottom: 30px;
+}
+
+     
+     
+.footer{
+    margin-top: 40px;
+   width:576px ;
+   height: 800px;
+    margin: 0 auto;
+    background-color:rgb(1, 172, 253) ;
+    display: grid;
+    gap: 20px;
+    color: white;
+    padding-left: 10px;
+    
+    
+}
+.footer-1{
+    padding-bottom: 40px;
+}
+.footer-logo{
+    display: flex;
+    gap: 4px;
+    width: 240px;
+    height: 140px;
+}
+.logo-title{
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+}
+
+.footer-img{
+    width: 85px;
+    height: 30px;
+    padding-top: 5px;
+    /* background-color: aliceblue; */
+}
+.footer-link{
+    padding-top: 70px;
+
+}
+.about{
+    font-weight: 600;
+    font-size: 21px;
+}
+
+.footer-link > ul{
+    display: grid;
+    gap: 30px;
+   
+}
+.icon-div{
+    display: grid;
+}
+.list > a{
+    color: white;
+}
+.footer-1{
+    width: 200px;
+    height: 70px;
+    padding-left: 4px;
+}
+.tweet-container{
+    padding-left: 0px;
+    
+    
+}
+.icon-div {
+    width: 40px;
+    height: 40px;
+    display: flex;
+}
+.tweet-container > img{
+  width: 100%;
+}
     
         
-    .footer{
-        margin-top: 140px;
-    }
+   
+
 }
