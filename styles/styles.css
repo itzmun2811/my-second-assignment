@@ -133,10 +133,14 @@ img{
 }
 .curriculam > img{
     width: 100%;
+    
 }
 .img-1{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 40px;
     /* justify-content: center;
     align-items: center; */
 }
@@ -174,23 +178,42 @@ img{
     background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
 
 }
+.link-1 > a{
+    color:rgb(100, 200, 255);
+    text-decoration: none;
+}
+.link-2 >a{
+ color: rgb(240, 170, 0);
+ text-decoration: none;
+ 
+}
+.link-3 > a{
+color: rgb(135, 0, 255);
+text-decoration: none;
+
+}
+.btn{
+    padding: 30px;
+    background-color: white;
+   
+    font-weight: 700;
+    font-size: 20px;
+}
 .icon-arrow{
     display: flex;
-   
-}u
-.icon{
-    width: 60px;
-    height: 60px;
-    font-size: 60px;
-    font-weight: 700;
+    margin-top: 60PX;
     padding-right: 240px;
-    padding-left: 240px;
+    padding-left: 240px; 
+    justify-content: center;
+    gap: 5PX;
+    
+   
 }
 
 /* stories-section */
 
  .stories-section{
-    padding-top:30px ;
+    padding-top:80px ;
     max-width: 1920px;
     margin: 0 auto;
     text-align: center;
@@ -206,12 +229,33 @@ img{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 20px;  
-     width: 600px;
+    width: 600px;
     height: 620px;
 
 }
 .story-h{
     display: none;
+}
+.big-date{
+    position: relative;
+    top: -30px;
+    left: -140px;
+    border-radius: 45px;
+    
+}
+.date{
+    position: relative;
+    top: -25px;
+    left: -27px ;
+    border-radius: 45px;
+    /* left: -5px; */
+    
+}
+.date-2{
+    background-color: rgb(149, 178, 38);
+}
+.date-3{
+    background-color: rgb(93, 88, 240);
 }
 .view-para{
     font-size: 20px;
@@ -227,7 +271,7 @@ background: rgb(255, 255, 255);
 }
 .story-box-1 >img{
     width: 100%;
-    border-radius: 16px;
+    border-radius: 16px 16px 0px 0px;
 }
 .story{
     width: 290px;
@@ -237,7 +281,7 @@ background: rgb(255, 255, 255);
 background: rgb(255, 255, 255);
 }
 .story > img{
-    border-radius: 16px;
+    border-radius: 16px 16px 0px 0px;
 }
 /* footer section */
 
